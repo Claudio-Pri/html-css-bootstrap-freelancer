@@ -8,4 +8,44 @@
 */
 
 
+
+
+/* come si fa? */
+main img {
+    max-width: 200px;
+    max-height: 200px;
+}
+
+
 /* DEBUG */
+
+.debug .header {
+    background-color: aquamarine;
+}
+
+.debug .main {
+    background-color: lightcoral;
+}
+
+.debug .footer {
+    background-color: plum;
+}
+
+.debug .row {
+    background-color: beige;
+}
+
+.debug .row {
+    background-color: beige;
+}
+
+.debug header [class*="col-"] {
+    background-color: lawngreen;
+    border: 2px dashed navy;
+
+}
+
+.debug main [class*="col-"] {
+    background-color: palevioletred;
+    border: 2px dashed yellow;
+}
