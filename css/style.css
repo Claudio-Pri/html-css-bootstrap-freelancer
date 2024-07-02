@@ -50,3 +50,7 @@ main #profile-section img {
     background-color: palevioletred;
     border: 2px dashed yellow;
 }
+
+.debug #about-section {
+    background-color: #1ABC9C;
+}
