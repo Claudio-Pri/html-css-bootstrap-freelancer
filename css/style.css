@@ -22,13 +22,19 @@
 }
 
 .my-txt-main {
-    background-color: #1ABC9C;
+    color: #1ABC9C;
 }
 
 /* come si fa? */
 main #profile-section img {
     max-width: 200px;
     max-height: 200px;
+}
+
+.my-special-btn {
+    width: 50px;
+    height: 50px;
+    padding: 0;
 }
 
 
