@@ -24,7 +24,7 @@
             <div class="container">
                 <a class="navbar-brand text-uppercase fw-bold text-white" href="#">start bootstrap</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    data-bs-target="#navbarSupportedContent" data-bs-theme="dark" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -162,10 +162,10 @@
         </section>
 
         <!-- CONTACT ME -->
-        <section id="contact-section">
+        <section class="py-5" id="contact-section">
             <div class="container">
 
-                <h2 class="text-uppercase">contact me</h2>
+                <h2 class="text-uppercase fw-bold fs-1">contact me</h2>
                 <div class="row justify-content-center">
                     <div class="col-4">
                         <span>Stelline poi si vede</span>
@@ -173,33 +173,38 @@
                 </div>
 
                 <!-- FORM -->
-                <div class="row justify-content-center">
-                    <div class="col-8">
-                        <input type="text" class="form-control" placeholder="Name" aria-label="Name">
+                <!-- rivedere lezione 03/07 sui form -- strutturare row e col -->
+                <form action="">
+
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label"></label>
+                        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Name"
+                            required>
                     </div>
-                </div>
-                <div class="row justify-content-center">
-                    <div class="col-8">
-                        <input type="text" class="form-control" placeholder="Email Address" aria-label="Email Address">
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label"></label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1"
+                            placeholder="Email Address" required>
                     </div>
-                </div>
-                <div class="row justify-content-center">
-                    <div class="col-8">
-                        <input type="text" class="form-control" placeholder="Phone Number" aria-label="Phone Number">
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label"></label>
+                        <input type="number" class="form-control" id="exampleFormControlInput1"
+                            placeholder="Phone Number">
                     </div>
-                </div>
-                <div class="row justify-content-center">
-                    <div class="col-8">
+                    <div class="mb-3">
+                        <label for="exampleFormControlTextarea1" class="form-label"></label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" required></textarea>
+                    </div>
 
 
-                        <textarea name="" id="" rows="" cols=""></textarea>
+                    <div class="row justify-content-start">
+                        <div class="col-12 text-start">
+                            <button type="button" class="btn btn-success btn-lg">Send</button>
+                        </div>
                     </div>
-                </div>
-                <div class="row justify-content-start">
-                    <div class="col-2 offset-2">
-                        <button type="button" class="btn btn-success btn-lg">Send</button>
-                    </div>
-                </div>
+                </form>
+
+
             </div>
         </section>
     </main>
