@@ -18,17 +18,40 @@
 <body class="debug">
 
     <!-- header -->
-    <header>
-        <div class="container">
-            <div class="row">
-                <div class="col-6">
-                    <span>START BOOTSTRAP</span>
-                </div>
-                <div class="col-6 text-end">
-                    <span>NAV</span>
+    <header class="my-bg-dark py-3">
+
+        <nav class="navbar navbar-expand-md">
+            <div class="container">
+                <a class="navbar-brand text-uppercase fw-bold text-white" href="#">start bootstrap</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active text-uppercase fw-bold text-white" aria-current="page"
+                                href="#">portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active text-uppercase fw-bold text-white" aria-current="page"
+                                href="#">about</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active text-uppercase fw-bold text-white" aria-current="page"
+                                href="#">contact</a>
+                        </li>
+
+
+                    </ul>
+
                 </div>
             </div>
-        </div>
+        </nav>
+
     </header>
     <!-- /header -->
 
@@ -36,7 +59,7 @@
     <main class="text-center">
 
         <!-- section 1 -->
-        <section id="profile-section">
+        <section class="py-5 my-bg-main" id="profile-section">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-6">
@@ -45,7 +68,7 @@
                 </div>
                 <div class="row justify-content-center">
                     <div class="col-8">
-                        <h1 class="text-uppercase">start bootstrap</h1>
+                        <h1 class="text-uppercase fw-bold text-white">start bootstrap</h1>
                     </div>
                 </div>
                 <div class="row justify-content-center">
@@ -55,41 +78,41 @@
                 </div>
                 <div class="row justify-content-center">
                     <div class="col-10">
-                        <p class="text-uppercase">Tutte - le cose - che so fare</p>
+                        <p class="text-uppercase fw-bold text-white my-2">Tutte - le cose - che so fare</p>
                     </div>
                 </div>
             </div>
         </section>
 
         <!-- portfolio section -->
-        <section id="portfolio-section">
+        <section class="py-5" id="portfolio-section">
             <div class="container">
 
                 <!-- è necessario usare row e col o va bene avere h1-h2 block al di fuori di una row? -->
                 <h2 class="text-uppercase">portfolio</h2>
                 <div class="row justify-content-center">
-                    <div class="col-6">
+                    <div class="col-6 my-2">
                         <span>Stelline poi si vede</span>
                     </div>
                 </div>
-                <div class="row justify-content-center">
-                    <div class="col-12 col-md-6 col-lg-4 g-2">
-                        <img src="img/cabin.png" class="img-fluid" alt="">
+                <div class="row gy-3 justify-content-center">
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <img src="img/cabin.png" class="img-fluid rounded-3" alt="">
                     </div>
-                    <div class="col-12 col-md-6 col-lg-4 g-2">
-                        <img src="img/cabin.png" class="img-fluid" alt="">
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <img src="img/cake.png" class="img-fluid rounded-3" alt="">
                     </div>
-                    <div class="col-12 col-md-6 col-lg-4 g-2">
-                        <img src="img/cabin.png" class="img-fluid" alt="">
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <img src="img/circus.png" class="img-fluid rounded-3" alt="">
                     </div>
-                    <div class="col-12 col-md-6 col-lg-4 g-2">
-                        <img src="img/cabin.png" class="img-fluid" alt="">
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <img src="img/game.png" class="img-fluid rounded-3" alt="">
                     </div>
-                    <div class="col-12 col-md-6 col-lg-4 g-2">
-                        <img src="img/cabin.png" class="img-fluid" alt="">
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <img src="img/safe.png" class="img-fluid rounded-3" alt="">
                     </div>
-                    <div class="col-12 col-md-6 col-lg-4 g-2">
-                        <img src="img/cabin.png" class="img-fluid" alt="">
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <img src="img/submarine.png" class="img-fluid rounded-3" alt="">
                     </div>
 
                 </div>
@@ -97,7 +120,7 @@
             </div>
         </section>
 
-        <section id="about-section">
+        <section class="py-5 my-bg-main" id="about-section">
             <div class="container">
                 <h2 class="text-uppercase">about</h2>
                 <div class="row justify-content-center">
@@ -105,7 +128,7 @@
                         <span>Stelline poi si vede</span>
                     </div>
                 </div>
-                <div class="row justify-content-center">
+                <div class="row gy-3 justify-content-center">
                     <div class="col-8 col-md-6">
                         <p class="fs-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo aspernatur
                             officiis, libero
@@ -121,7 +144,7 @@
                     </div>
                 </div>
                 <div class="row justify-content-center">
-                    <div class="col-3">
+                    <div class="col-12">
                         <button type="button" class="btn btn-outline-primary"><span>I//</span>Download</button>
                     </div>
                 </div>
@@ -138,6 +161,8 @@
                         <span>Stelline poi si vede</span>
                     </div>
                 </div>
+
+                <!-- FORM -->
                 <div class="row justify-content-center">
                     <div class="col-8">
                         <input type="text" class="form-control" placeholder="Name" aria-label="Name">
@@ -155,7 +180,9 @@
                 </div>
                 <div class="row justify-content-center">
                     <div class="col-8">
-                        <input type="text" class="form-control" placeholder="Message" aria-label="Message">
+
+
+                        <textarea name="" id="" rows="" cols=""></textarea>
                     </div>
                 </div>
                 <div class="row justify-content-start">
@@ -170,9 +197,25 @@
 
     <!-- footer -->
     <footer class="text-center">
-        <div class="container">
-            FOOTER
-        </div>
+        <section>
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-4">col 1</div>
+                    <div class="col-12 col-md-4">col 1</div>
+                    <div class="col-12 col-md-4">col 1</div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-12">Copyright @ lorem ipsum 2024</div>
+
+                </div>
+            </div>
+        </section>
     </footer>
     <!-- /footer -->
 

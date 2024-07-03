@@ -7,9 +7,23 @@
     GENERAL
 */
 
+/* HEADER */
 
+.my-bg-dark {
+    background-color: #2C3E50;
+}
 
+.my-bg-light-gray {
+    background-color: #3A546D;
+}
 
+.my-bg-main {
+    background-color: #1ABC9C;
+}
+
+.my-txt-main {
+    background-color: #1ABC9C;
+}
 
 /* come si fa? */
 main #profile-section img {
@@ -20,7 +34,7 @@ main #profile-section img {
 
 /* DEBUG */
 
-.debug .header {
+/* .debug .header {
     background-color: aquamarine;
 }
 
@@ -51,6 +65,11 @@ main #profile-section img {
     border: 2px dashed yellow;
 }
 
+.debug footer [class*="col-"] {
+    background-color: lightseagreen;
+    border: 2px dashed yellow;
+}
+
 .debug #about-section {
     background-color: #1ABC9C;
-}
+} */
